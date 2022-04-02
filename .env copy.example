@@ -1,0 +1,31 @@
+# REQUIRED
+PRIVATE_KEYS="<PRIVATE KEY ACTOR>,<PRIVATE KEY CPU>"
+ACTOR="<ACCOUNT>@<PERMISSION>"
+
+# OPTIONAL
+CPU_ACTOR="<ACCOUNT>@<PERMISSION>"
+CONCURRENCY=5
+TIMEOUT_MS=10
+VERBOSE=false
+HEADERS='{"Referer": "https://github.com/stableex/sx.server"}'
+
+# Up to 32 API endpoints separated by comma
+NODEOS_ENDPOINTS="https://eos.greymass.com,https://api.eosflare.io,https://api.main.alohaeos.com,https://api.eossweden.org"
+
+# Other nodepoints to choose from
+# https://api.eosn.io
+# https://api-mainnet.starteos.io
+# https://api.eosarabia.net
+# https://api.main.alohaeos.com
+# https://node1.zbeos.com
+# https://bp.whaleex.com
+# https://api.eosfinex.com
+# https://eosbp.atticlab.net
+# https://eos.newdex.one
+# https://eos-api.b1.run
+# https://api.eosrapid.com
+# https://api.eosflare.io
+# https://api.bitmars.one
+# https://mainnet-api.meet.one
+# https://api.eossweden.org
+# https://eos.eoscafeblock.com

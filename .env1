@@ -1,0 +1,36 @@
+# REQUIRED
+# PRIVATE_KEYS="PVT_K1_2tQpqjkWtGer41s5uMQGbgnQhho1LR5699pFYs4nTC2nscZv5q,PVT_K1_2tQpqjkWtGer41s5uMQGbgnQhho1LR5699pFYs4nTC2nscZv5q"
+# ACTOR="xroyhanbeens"
+PRIVATE_KEYS="PVT_K1_2YCWBrLKq6hbAf2549x8hwwBEVrhRQaPWKYkpUEWYy6tnpWEfj,PVT_K1_2YCWBrLKq6hbAf2549x8hwwBEVrhRQaPWKYkpUEWYy6tnpWEfj"
+ACTOR="viper12viper"
+
+# OPTIONAL
+#CPU_ACTOR="xroyhanbeens@active"
+
+CPU_ACTOR="viper12viper"
+CONCURRENCY=5
+TIMEOUT_MS=5
+VERBOSE=false
+HEADERS='{"Referer": "https://github.com/stableex/sx.server"}'
+
+# Up to 32 API endpoints separated by comma
+NODEOS_ENDPOINTS="https://eos.greymass.com,https://api.eosflare.io,https://api.main.alohaeos.com,https://api.eossweden.org"
+# NODEOS_ENDPOINTS="https://eos.newdex.one,https://api.eosn.io,https://api-mainnet.starteos.io,https://api.eosarabia.net,https://api.main.alohaeos.com"
+
+# Other nodepoints to choose from
+# https://api.eosn.io
+# https://api-mainnet.starteos.io
+# https://api.eosarabia.net
+# https://api.main.alohaeos.com
+# https://node1.zbeos.com
+# https://bp.whaleex.com
+# https://api.eosfinex.com
+# https://eosbp.atticlab.net
+# https://eos.newdex.one
+# https://eos-api.b1.run
+# https://api.eosrapid.com
+# https://api.eosflare.io
+# https://api.bitmars.one
+# https://mainnet-api.meet.one
+# https://api.eossweden.org
+# https://eos.eoscafeblock.com
